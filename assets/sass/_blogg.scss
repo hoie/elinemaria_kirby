@@ -1,0 +1,25 @@
+.blogg {
+    grid-column: col-start 2 / col-end 7;
+           display: grid; 
+           grid-row-gap: 8rem;
+           
+           &__tittel {
+               grid-column: 1 / -1;
+            }
+            
+            &__post {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-column-gap: 4rem;
+                align-items: center;
+        }
+        
+    &__bilde {
+        display: block;
+        grid-column: 1 / 2;
+    }
+
+    &__tekst {
+        grid-column: 2 / 3;
+    }
+}

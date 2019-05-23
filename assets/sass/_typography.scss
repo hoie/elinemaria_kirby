@@ -1,0 +1,27 @@
+body {
+    font-family: $font-primary;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+}
+
+.section-header {
+    grid-column: 1 / -1;
+    margin: 4rem 0;
+
+    font-family: $font-display;
+    font-size: 6rem;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 2.8rem;
+}
+
+ul {
+    margin-left: 4rem;
+    line-height: 2.4rem;
+
+    & li {
+        margin-bottom: 1rem;
+    }
+}

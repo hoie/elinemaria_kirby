@@ -1,0 +1,11 @@
+title: Media
+preset: page
+fields:
+  text:
+    label: Tekst
+    type: textarea
+    size: medium
+  video:
+    label: Lenke til video (youtube eller vimeo)
+    type: url
+

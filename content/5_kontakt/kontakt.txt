@@ -1,0 +1,7 @@
+tittel: Contact
+----
+tekst: Lorem ipsum
+----
+telefon: 123 Sesamestreet, NYC
+----
+epost: mail@mywebsite.com

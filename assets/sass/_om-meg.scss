@@ -1,0 +1,36 @@
+.om-meg {
+
+    grid-column: col-start 1 / col-end 8;
+
+    margin: 10rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 3rem;
+
+    &__innledning {
+        grid-column: 1 / 3;
+
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    &__opptredener {
+        grid-column: 3 / -1;
+
+        background-color: antiquewhite;
+        padding: 3rem;
+        
+        ul {
+            list-style: none;
+            margin: 0;
+            font-size: 1.6rem;
+            line-height: 2rem;
+
+            li p {
+                margin-bottom: 1.6rem;
+            }
+        }
+    }
+
+}

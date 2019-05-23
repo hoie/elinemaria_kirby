@@ -1,0 +1,19 @@
+.presse {
+
+    grid-column: center-start / center-end;
+
+    margin: 3rem 0;
+    padding: 3rem;
+    
+
+    & ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        grid-gap: 3rem;
+
+        margin: 3rem 0;
+
+        list-style-type: none;
+    }
+
+}

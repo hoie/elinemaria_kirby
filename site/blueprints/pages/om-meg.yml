@@ -1,0 +1,21 @@
+title: Om meg
+
+columns:
+  - width: 1/2
+    fields:
+      tekst:
+        label: Innledning
+        type: textarea
+        size: medium
+
+  - width: 1/2
+    fields:
+      cv:
+        label: Opptredener
+        type: structure
+        fields:
+          arrangement:
+            label: arrangement
+            type: textarea
+            size: small
+

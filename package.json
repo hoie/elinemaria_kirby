@@ -1,0 +1,14 @@
+{
+  "name": "elinemaria_kirby",
+  "version": "1.0.0",
+  "description": "Hjemmeside for sangeren Eline Maria Refvem.",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass assets/sass/main.scss assets/css/home.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

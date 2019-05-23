@@ -1,0 +1,14 @@
+
+title: Kontakt
+preset: page
+fields:
+  text:
+    label: Tekst
+    type: textarea
+    size: small
+  email:
+    label: E-post
+    type: email
+  phone:
+    label: Telefon
+    type: tel

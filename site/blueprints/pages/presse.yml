@@ -1,0 +1,11 @@
+title: Pressebilder
+preset: page
+fields:
+  text:
+    label: Tekst
+    type: textarea
+    size: medium
+  url:
+    label: Lenke
+    type: url
+

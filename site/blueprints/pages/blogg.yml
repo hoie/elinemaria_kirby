@@ -1,0 +1,7 @@
+title: Blogg
+preset: page
+fields:
+  text:
+    label: Tekst
+    type: textarea
+    size: large
