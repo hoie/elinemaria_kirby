@@ -11,7 +11,7 @@ html {
 
 .container {
   display: grid;
-  grid-template-columns: [full-start] minmax(1rem, 1fr) [center-start] repeat(8, [col-start] minmax(4rem, 14rem) [col-end]) [center-end] minmax(1rem, 1fr) [full-end];
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] minmax(min-content, 8fr) [center-end] minmax(6rem, 1fr) [full-end];
   grid-template-rows: 100vh;
   grid-row-gap: 20rem; }
 
@@ -76,7 +76,7 @@ ul {
     line-height: 10vh; }
 
 .om-meg {
-  grid-column: col-start 1 / col-end 8;
+  grid-column: center-start / center-end;
   margin: 10rem 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -160,7 +160,7 @@ ul {
     color: beige; }
 
 .blogg {
-  grid-column: col-start 2 / col-end 7;
+  grid-column: center-start / center-end;
   display: grid;
   grid-row-gap: 8rem; }
   .blogg__tittel {
