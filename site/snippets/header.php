@@ -32,7 +32,7 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
-	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Lato+Gentium+Basic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Lato|Gentium+Basic|Montaga|Source+Sans+Pro|Nanum+Gothic&display=swap" rel="stylesheet">
 
 	<?= css(['assets/css/home.css', '@auto']) ?>
 	

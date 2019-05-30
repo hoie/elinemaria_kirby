@@ -1,6 +1,12 @@
 $font-display: 'Cinzel Decorative', cursive;
 // $font-primary: 'Lato', sans-serif;
-$font-primary: 'Gentium Basic', serif;
+// $font-primary: 'Gentium Basic', serif;
+// $font-primary: 'Source Sans Pro', sans-serif;
+// $font-primary: 'Montaga', serif;
+$font-primary: 'Nanum Gothic', sans-serif;
+
+$column-grid: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(4rem, 14rem) [col-end] ) [center-end ] minmax(6rem, 1fr) [full-end];
+
 
 *,
 *:before,

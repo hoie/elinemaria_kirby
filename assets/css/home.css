@@ -19,9 +19,9 @@ img {
   max-width: 100%; }
 
 body {
-  font-family: "Gentium Basic", serif;
-  font-size: 1.7rem;
-  line-height: 2.8rem; }
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.9rem;
+  line-height: 3rem; }
 
 .section-header {
   grid-column: 1 / -1;
@@ -31,7 +31,7 @@ body {
   text-align: center; }
 
 p {
-  margin-bottom: 2.8rem; }
+  margin-bottom: 3rem; }
 
 ul {
   margin-left: 4rem;
@@ -160,22 +160,23 @@ ul {
     color: beige; }
 
 .blogg {
-  grid-column: center-start / center-end;
+  grid-column: full-start / full-end;
   display: grid;
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(4rem, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
   grid-row-gap: 8rem; }
   .blogg__tittel {
-    grid-column: 1 / -1; }
+    grid-column: 1 / -1;
+    text-align: center; }
   .blogg__post {
     display: grid;
+    grid-column: col-start 2 / col-end 7;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 4rem;
-    align-items: center; }
+    align-items: center;
+    background-color: beige;
+    padding: 6rem; }
   .blogg__bilde {
     display: block;
     grid-column: 1 / 2; }
   .blogg__tekst {
     grid-column: 2 / 3; }
-
-.footer {
-  grid-column: full-start / full-end;
-  padding: 3rem; }

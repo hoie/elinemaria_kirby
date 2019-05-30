@@ -1,19 +1,29 @@
 .blogg {
-    grid-column: center-start / center-end;
+    grid-column: full-start / full-end;
            display: grid; 
-           grid-row-gap: 8rem;
-           
-           &__tittel {
-               grid-column: 1 / -1;
-            }
-            
-            &__post {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-column-gap: 4rem;
-                align-items: center;
-        }
+           grid-template-columns: $column-grid;
+           grid-row-gap: 8rem;    
         
+    // &__indre {
+    //     grid-column: col-start 2 / col-end 8;
+    // }
+
+    &__tittel {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+            
+    &__post {
+        display: grid;
+        grid-column: col-start 2 / col-end 7;   
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 4rem;
+        align-items: center;
+
+        background-color: beige;
+        padding: 6rem;
+    }
+
     &__bilde {
         display: block;
         grid-column: 1 / 2;
